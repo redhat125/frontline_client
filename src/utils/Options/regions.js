@@ -1215,125 +1215,125 @@ const regions = [
     children: [
       {
         value: "1",
-        label: "Bagalkot"
+        label: "Bagalkot",
       },
       {
         value: "2",
-        label: "Ballari (Bellary)"
+        label: "Ballari (Bellary)",
       },
       {
         value: "3",
-        label: "Belagavi (Belgaum)"
+        label: "Belagavi (Belgaum)",
       },
       {
         value: "4",
-        label: "Bengaluru (Bangalore) Rural"
+        label: "Bengaluru (Bangalore) Rural",
       },
       {
         value: "5",
-        label: "Bengaluru (Bangalore) Urban"
+        label: "Bengaluru (Bangalore) Urban",
       },
       {
         value: "6",
-        label: "Bvaluear"
+        label: "Bvaluear",
       },
       {
         value: "7",
-        label: "Chamarajanagar"
+        label: "Chamarajanagar",
       },
       {
         value: "8",
-        label: "Chikballapur"
+        label: "Chikballapur",
       },
       {
         value: "9",
-        label: "Chikkamagaluru (Chikmagalur)"
+        label: "Chikkamagaluru (Chikmagalur)",
       },
       {
         value: "10",
-        label: "Chitradurga"
+        label: "Chitradurga",
       },
       {
         value: "11",
-        label: "Dakshina Kannada"
+        label: "Dakshina Kannada",
       },
       {
         value: "12",
-        label: "Davangere"
+        label: "Davangere",
       },
       {
         value: "13",
-        label: "Dharwad"
+        label: "Dharwad",
       },
       {
         value: "14",
-        label: "Gadag"
+        label: "Gadag",
       },
       {
         value: "15",
-        label: "Hassan"
+        label: "Hassan",
       },
       {
         value: "16",
-        label: "Haveri"
+        label: "Haveri",
       },
       {
         value: "17",
-        label: "Kalaburagi (Gulbarga)"
+        label: "Kalaburagi (Gulbarga)",
       },
       {
         value: "18",
-        label: "Kodagu"
+        label: "Kodagu",
       },
       {
         value: "19",
-        label: "Kolar"
+        label: "Kolar",
       },
       {
         value: "20",
-        label: "Koppal"
+        label: "Koppal",
       },
       {
         value: "21",
-        label: "Mandya"
+        label: "Mandya",
       },
       {
         value: "22",
-        label: "Mysuru (Mysore)"
+        label: "Mysuru (Mysore)",
       },
       {
         value: "23",
-        label: "Raichur"
+        label: "Raichur",
       },
       {
         value: "24",
-        label: "Ramanagara"
+        label: "Ramanagara",
       },
       {
         value: "25",
-        label: "Shivamogga (Shimoga)"
+        label: "Shivamogga (Shimoga)",
       },
       {
         value: "26",
-        label: "Tumakuru (Tumkur)"
+        label: "Tumakuru (Tumkur)",
       },
       {
         value: "27",
-        label: "Udupi"
+        label: "Udupi",
       },
       {
         value: "28",
-        label: "Uttara Kannada (Karwar)"
+        label: "Uttara Kannada (Karwar)",
       },
       {
         value: "29",
-        label: "Vijayapura (Bijapur)"
+        label: "Vijayapura (Bijapur)",
       },
       {
         value: "30",
-        label: "Yadgir"
-      }
-    ]
+        label: "Yadgir",
+      },
+    ],
   },
   /*
   {

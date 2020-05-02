@@ -4,7 +4,9 @@ function formatService(services = {}) {
   // each service
   Object.keys(services).forEach((k) => {
     // service may be an array or a nested object
-    const service = services[k] || [];
+    let tempService = services[k];
+    if (k == "operationalArea") tempService = tempService.value || [];
+    const service = tempService || [];
     const items = [];
 
     if (Array.isArray(service)) {

@@ -11,6 +11,11 @@ const renderOptionsObject = (options) =>
     <Option key={k.id}>{k.value || k.name}</Option>
   ));
 
+const renderOptionsLabel = (options) =>
+  Object.values(options).map((k) => (
+    <Option key={k.value}>{k.label || k.name}</Option>
+  ));
+
 export const RegionSelect = ({ options }) => (
   <Form.Item
     label="Region"
@@ -103,6 +108,33 @@ export const NonMedicalField = ({ options, onChange }) => (
   >
     <Select mode="multiple" onChange={onChange}>
       {renderOptionsObject(options)}
+    </Select>
+  </Form.Item>
+);
+
+export const MultipleRegionSelect = ({ options, onChange }) => (
+  <Form.Item
+    name={["services", "operationalArea", "value"]}
+    label="District of Operation"
+  >
+    <Select
+      mode="multiple"
+      placeholder="multiple options can be selected"
+      onChange={onChange}
+    >
+      {renderOptionsLabel(options)}
+    </Select>
+  </Form.Item>
+);
+
+export const NumberOfOperationalArea = ({ options }) => (
+  <Form.Item
+    label="Number of Area(s) of Operations"
+    name="numberOfOperationalArea"
+    rules={[{ required: true, message: "It is required field" }]}
+  >
+    <Select placeholder="for Bangalore Urban only">
+      {renderOptions(options)}
     </Select>
   </Form.Item>
 );
